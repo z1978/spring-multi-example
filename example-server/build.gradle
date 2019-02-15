@@ -1,0 +1,11 @@
+apply plugin: 'application'
+
+mainClassName = 'com.example.server.Server'
+
+dependencies {
+	testCompile group: 'com.sun.net.httpserver', name: 'http', version: '20070405'
+}
+
+run.doFirst {
+	// Environment variables go here.
+}

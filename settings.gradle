@@ -1,0 +1,4 @@
+rootProject.name = 'spring-multi-example'
+
+include 'example-core'
+include 'example-server'
